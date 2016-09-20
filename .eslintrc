@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "no-underscore-dangle": [0],
+    "global-require": [0]
+  }
+}
