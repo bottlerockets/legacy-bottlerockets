@@ -62,8 +62,8 @@ task("welcome")
         task.fullName = args.firstName + " " + args.lastName
       })
 
-      it("is not Adolf Hitler", function () {
-        expect(task.fullName).to.not.be.equal('Adolf Hitler')
+      it("is not Tom", function () {
+        expect(task.firstName).to.not.be.equal('Tom')
       })
     })
   })
